@@ -5,8 +5,8 @@ import re
 import argparse
 
 # Check prerequisites
-if sys.version_info < (3,6):
-    print("This program requires Python 3.6 or higher")
+if sys.version_info < (3,7):
+    print("This program requires Python 3.7 or higher")
     exit()
 
 if os.name != "posix":
